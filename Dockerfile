@@ -1,4 +1,5 @@
 FROM mcr.microsoft.com/v2/dotnet/core/sdk:3.1 AS build
+
 WORKDIR /app
 
 LABEL "com.github.actions.name"="Microsoft Teams (Generic)"
